@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Array Input and Target Finder</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="input-group">
+    <label for="arrayLength">Array Length:</label>
+    <input type="number" id="arrayLength" placeholder="Enter array length">
+    <button id="enterLength">Enter</button>
+  </div>
+
+  <div class="input-group">
+    <label for="arrayElement">Array Element:</label>
+    <input type="number" id="arrayElement" placeholder="Enter array element" disabled>
+    <button id="addElement" disabled>Add</button>
+  </div>
+
+  <p id="arrayDisplay">Array: []</p>
+  <p id="targetDisplay"></p>
+  <p id="resultDisplay"></p>
+</div>
+
+<script src="src/app.js"></script>
+
+</body>
+</html>
